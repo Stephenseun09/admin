@@ -1,0 +1,10 @@
+.form {
+  border: 1px solid var(--light);
+  border-radius: 20px 5px;
+  *,
+  *::after,
+  *::before {
+    border: none;
+    color: var(--secondary) !important;
+  }
+}

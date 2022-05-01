@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  @media only screen and (min-width: 760px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .orders,
+  .profit {
+    display: flex;
+    // justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+    // width: max-content;
+    background-color: var(--orders);
+    padding: 20px 30px;
+    border-radius: 30px 8px;
+    font-size: 14px;
+    @media only screen and (min-width: 760px) {
+      flex: 1;
+    }
+
+    .icon {
+      border-radius: 15px 5px;
+      padding: 12px;
+      background-color: var(--white);
+    }
+    .right {
+      .right__top {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        h2 {
+        }
+        span {
+          background-color: var(--main);
+          padding: 3px 6px;
+          border-radius: 8px 2px;
+          color: var(--white);
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .profit {
+    background-color: var(--profit);
+  }
+}

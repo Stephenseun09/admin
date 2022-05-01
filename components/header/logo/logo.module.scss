@@ -1,0 +1,13 @@
+.logo {
+  display: flex;
+  align-items: center;
+  .text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--main);
+  }
+  .icon {
+    font-size: 1rem;
+    color: var(--main);
+  }
+}

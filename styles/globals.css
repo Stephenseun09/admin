@@ -1,0 +1,35 @@
+:root {
+  --light: #f7faff;
+  --main: #42427d;
+  --mainSoft: #5840bb;
+  --secondary: #7979b2;
+  --secondarySoft: #a0aac8;
+  --dark: #002884;
+  --white: #fff;
+  --bg: #f7faff;
+  --orders: #c7f2ff;
+  --profit: #ffe5ee;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #f7faff;
+  color: var(--main);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
