@@ -1,17 +1,17 @@
-import Icon from "../../../ui/icon";
 import LibraryBooksIcon from "@mui/icons-material/LibraryBooks";
 import SavingsIcon from "@mui/icons-material/Savings";
+import IconButton from "@mui/material/IconButton";
 
 import classes from "./Card.module.scss";
 
-const Card = ({ icon }) => {
+const Card = () => {
   return (
     <div className={classes.wrapper}>
       <div className={classes.orders}>
         <div className={classes.left}>
-          <Icon className={classes.icon}>
+          <IconButton className={classes.icon}>
             <LibraryBooksIcon sx={{ color: "var(--main)" }} />
-          </Icon>
+          </IconButton>
         </div>
 
         <div className={classes.right}>
@@ -24,9 +24,9 @@ const Card = ({ icon }) => {
       </div>
       <div className={classes.profit}>
         <div className={classes.left}>
-          <Icon className={classes.icon}>
+          <IconButton className={classes.icon}>
             <SavingsIcon sx={{ color: "var(--main)" }} />
-          </Icon>
+          </IconButton>
         </div>
 
         <div className={classes.right}>
